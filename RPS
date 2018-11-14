@@ -4,7 +4,9 @@ while lp == 'true':
 t=random.randrange(0,3) //generates rand numbers between 0-3
 choice=['rock','paper','scissors']
 comp=str(choice[t]) //random no. passed to the list
-usr=str(input("Enter rock,paper or scissors: "))
+usr=str(input("Enter rock,paper or scissors: ")) //user input is accepted 
+
+//user input is compared to the random no. generated
 if comp == usr:
 print('The computer drew {}'.format(comp))
 print('Issa draw my G')
@@ -27,4 +29,4 @@ elif comp == 'scissors' and usr == 'rock':
 print('The computer drew {}'.format(comp))
 print('You lose')
 else:
-print('invalid choice!')
+print('invalid choice!')    //handles bad inputs by noobs
