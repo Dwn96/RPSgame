@@ -1,0 +1,30 @@
+import random
+lp='true'
+while lp == 'true':
+t=random.randrange(0,3) //generates rand numbers between 0-3
+choice=['rock','paper','scissors']
+comp=str(choice[t]) //random no. passed to the list
+usr=str(input("Enter rock,paper or scissors: "))
+if comp == usr:
+print('The computer drew {}'.format(comp))
+print('Issa draw my G')
+elif comp == 'paper' and usr == 'rock':
+print('The computer drew {}'.format(comp))
+print('You lose')
+elif comp == 'scissors' and usr == 'paper':
+print('The computer drew {}'.format(comp))
+print('You lose')
+elif comp == 'rock' and usr == 'scissors':
+print('The computer drew {}'.format(comp))
+print('You lose')
+elif comp == 'paper' and usr == 'scissors':
+print('The computer drew {}'.format(comp))
+print('You win')
+elif comp == 'rock' and usr == 'paper':
+print('The computer drew {}'.format(comp))
+print('You win')
+elif comp == 'scissors' and usr == 'rock':
+print('The computer drew {}'.format(comp))
+print('You lose')
+else:
+print('invalid choice!')
