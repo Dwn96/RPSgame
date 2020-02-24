@@ -29,4 +29,4 @@ elif comp == 'scissors' and usr == 'rock':
 print('The computer drew {}'.format(comp))
 print('You lose')
 else:
-print('invalid choice!')    //handles bad inputs by noobs
+print('invalid choice!')    //handles bad inputs
